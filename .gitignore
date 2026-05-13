@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+venv/
+.venv/
+
+# Local secrets
+api.env
+.env
+*.env
+!api.env.example
+
+# Generated job data and reports
+output/
+reports/
+
+# Local scratch scripts
+testapi*.py
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

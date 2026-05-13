@@ -1,0 +1,6 @@
+pytest
+requests
+pytest-html
+pytest-cov
+allure-pytest
+playwright

@@ -1,0 +1,26 @@
+[
+  {
+    "title": "AI Engineer Intern",
+    "company": "Example AI",
+    "location": "上海",
+    "salary": "面议",
+    "tech_tags": ["LLM", "RAG", "Python"],
+    "requirements": "要求具备Python、接口开发、RAG或大模型应用基础",
+    "highlights": ["方向匹配", "适合校招/实习准备"],
+    "risk_flags": ["示例数据，请勿当作真实岗位"],
+    "recommendation": "建议关注",
+    "match_score": 4.2,
+    "jd_summary": "参与AI应用、检索增强和模型工程相关开发工作",
+    "status": "evaluated",
+    "source": "示例",
+    "job_url": "https://example.com/jobs/ai-engineer-intern",
+    "confidence": 0.8,
+    "application_pack": {
+      "resume_tips": ["突出AI项目经历", "补充接口测试或自动化测试经验"],
+      "cover_letter": "您好，我对该岗位很感兴趣，希望进一步沟通AI工程实践经验。",
+      "form_answers": [],
+      "star_stories": [],
+      "manual_checklist": ["打开岗位链接", "人工确认并提交"]
+    }
+  }
+]
