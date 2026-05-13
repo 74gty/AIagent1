@@ -13,7 +13,7 @@ def test_home_and_status_api(ui_server, api_stats):
     status = requests.get(f"{ui_server}/api/status", timeout=5)
 
     assert home.status_code == 200
-    assert "AI求职助手" in home.text
+    assert "CareerPilot 职涯导航员" in home.text
     assert status.status_code == 200
     assert status.json()["running"] is False
     assert api_stats["total"] == 2

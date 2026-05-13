@@ -441,7 +441,7 @@ def _rule_fallback(title: str, jd_text: str = "") -> dict:
 
 
 def parse_user_goal(user_input: str) -> dict:
-    prompt = f"""你是一个AI求职助手。请解析用户的求职需求，提取关键信息。
+    prompt = f"""你是CareerPilot职涯导航员。请解析用户的求职需求，提取关键信息。
 
 用户说："{user_input}"
 

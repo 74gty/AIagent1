@@ -24,7 +24,7 @@ def test_frontend_smoke_with_trace(ui_server):
 
         try:
             page.goto(ui_server, wait_until="networkidle")
-            page.get_by_text("AI求职助手").first.wait_for(timeout=5000)
+            page.get_by_text("CareerPilot 职涯导航员").first.wait_for(timeout=5000)
             page.get_by_text("AI Engineer Intern").first.wait_for(timeout=5000)
             page.get_by_text("投递准备").first.wait_for(timeout=5000)
         except Exception:

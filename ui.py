@@ -215,7 +215,7 @@ def run_search_task(query: str):
 def run_server(host: str = "127.0.0.1", port: int = 7860, open_browser: bool = True):
     server = ThreadingHTTPServer((host, port), JobUIHandler)
     url = f"http://{host}:{port}"
-    print(f"AI求职助手前端已启动：{url}")
+    print(f"CareerPilot 职涯导航员前端已启动：{url}")
     print("搜索、查看、分析都在浏览器中操作；按 Ctrl+C 关闭服务。")
     if open_browser:
         threading.Timer(0.5, lambda: webbrowser.open(url)).start()
@@ -314,7 +314,7 @@ def _task_elapsed_seconds() -> float:
 
 
 def main():
-    parser = argparse.ArgumentParser(description="启动AI求职助手Web前端")
+    parser = argparse.ArgumentParser(description="启动CareerPilot职涯导航员Web前端")
     parser.add_argument("--host", default="127.0.0.1")
     parser.add_argument("--port", type=int, default=7860)
     parser.add_argument("--no-browser", action="store_true", help="不自动打开浏览器")
@@ -327,7 +327,7 @@ APP_HTML = """<!doctype html>
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>AI求职助手</title>
+  <title>CareerPilot 职涯导航员</title>
   <style>
     :root {
       --bg: #f5f7fb;
@@ -544,7 +544,7 @@ APP_HTML = """<!doctype html>
 </head>
 <body>
   <header>
-    <h1>AI求职助手</h1>
+    <h1>CareerPilot 职涯导航员</h1>
     <div class="sub">搜索、分析和查看结果都在前端完成</div>
   </header>
   <main>
